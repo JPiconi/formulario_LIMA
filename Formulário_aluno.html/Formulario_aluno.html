@@ -6,94 +6,97 @@
     <title>Forumlário</title>
   </head>
   <body>
-    <h1>Cadastro Aluno</h1>
     <form action="/roles" method="get">
-      <label for="nome">Nome:</label>
-      <input type="text" name="nome" id="nome" required />
-      <br />
-      <br />
-      <label for="idade">Idade:</label>
-      <input
-        type="number"
-        name="number"
-        id="number"
-        min="18"
-        max="100"
-        required
-      />
-      <br />
-      <br />
-      <label for="arquivo">Enviar Arquivo:</label>
-      <input type="file" name="arquivo" id="arquivo" required />
-      <br />
-      <br />
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required />
-      <br />
-      <br />
-      <label for="Senha">Senha</label>
-      <input type="password" name="password" id="password" required />
-      <br />
-      <br />
-      <label for="nascimento">Data de Nascimento</label>
-      <input type="date" name="nascimento" id="nascimento" required />
-      <br />
-      <br />
-      <label for="phone">Telefone</label>
-      <input
-        type="tel"
-        name="Telefone"
-        id="Telefone"
-        placeholder="(xx)xxxxx-xxxx"
-      />
-      <br />
-      <br />
-      <label for="Genero">Gênero</label>
-      <input type="radio" name="Genero" id="Masculino" />
-      <label for="Masculino">Masculino</label>
-      <input type="radio" name="Genero" id="Feminino" />
-      <label for="Feminino">Feminino</label>
-      <br />
-      <br />
-      <label for="state">Estado</label>
-      <select name="state" id="state">
-        <option value="Selecione...">Selecione...</option>
-        <option value="Bahia">Bahia</option>
-        <option value="Rio_De_Janeiro">Rio de Janeiro</option>
-        <option value="Sao_Paulo">|São Paulo</option>
-        <option value="Minas_Gerais">Minas Gerais</option>
-        <option value="Goias">Goiás</option>
-        <option value="Rio_Grande_do_sul">Rio Grande do Sul</option>
-        <option value="Parana">Paraná</option>
-        <option value="Ceara">Ceará</option>
-        <option value="Santa_Catarina">Santa Catarina</option>
-        <option value="Amazonas">Amazonas</option>
-        <option value="Pernambuco">Pernambuco</option>
-        <option value="Para">Pará</option>
-        <option value="Mato_Grosso"></option>
-        <option value="Rio_Grande_do_norte">Rio Grande Do Norte</option>
-        <option value="Mato_Grosso_do_Sul">Mato Grosso do Sul</option>
-        <option value="Sergipe">Sergipe</option>
-        <option value="Maranhao">Maranhão</option>
-        <option value="Espirito_santo">Espírito Santo</option>
-        <option value="Paraiba">Paraíba</option>
-        <option value="Alagoas">Alagoas</option>
-        <option value="Rondonia">Rondônia</option>
-        <option value="Roraima">Roraima</option>
-        <option value="Tocantins">Tocantins</option>
-        <option value="Piaui">Piauí</option>
-        <option value="Acre">Acre</option>
-        <option value="Amapa">Amapá</option>
-      </select>
+      <fieldset>
+        <legend><h1>Cadastro Aluno</h1></legend>
 
-      <br />
-      <br />
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required />
+        <br />
+        <br />
+        <label for="idade">Idade:</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="18"
+          max="100"
+          required
+        />
+        <br />
+        <br />
+        <label for="arquivo">Enviar Arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo" required />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <br />
+        <label for="Senha">Senha</label>
+        <input type="password" name="password" id="password" required />
+        <br />
+        <br />
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" required />
+        <br />
+        <br />
+        <label for="phone">Telefone</label>
+        <input
+          type="tel"
+          name="Telefone"
+          id="Telefone"
+          placeholder="(xx)xxxxx-xxxx"
+        />
+        <br />
+        <br />
+        <label for="Genero">Gênero</label>
+        <input type="radio" name="Genero" id="Masculino" />
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="Genero" id="Feminino" />
+        <label for="Feminino">Feminino</label>
+        <br />
+        <br />
+        <label for="state">Estado</label>
+        <select name="state" id="state">
+          <option value="Selecione...">Selecione...</option>
+          <option value="Bahia">Bahia</option>
+          <option value="Rio_De_Janeiro">Rio de Janeiro</option>
+          <option value="Sao_Paulo">|São Paulo</option>
+          <option value="Minas_Gerais">Minas Gerais</option>
+          <option value="Goias">Goiás</option>
+          <option value="Rio_Grande_do_sul">Rio Grande do Sul</option>
+          <option value="Parana">Paraná</option>
+          <option value="Ceara">Ceará</option>
+          <option value="Santa_Catarina">Santa Catarina</option>
+          <option value="Amazonas">Amazonas</option>
+          <option value="Pernambuco">Pernambuco</option>
+          <option value="Para">Pará</option>
+          <option value="Mato_Grosso"></option>
+          <option value="Rio_Grande_do_norte">Rio Grande Do Norte</option>
+          <option value="Mato_Grosso_do_Sul">Mato Grosso do Sul</option>
+          <option value="Sergipe">Sergipe</option>
+          <option value="Maranhao">Maranhão</option>
+          <option value="Espirito_santo">Espírito Santo</option>
+          <option value="Paraiba">Paraíba</option>
+          <option value="Alagoas">Alagoas</option>
+          <option value="Rondonia">Rondônia</option>
+          <option value="Roraima">Roraima</option>
+          <option value="Tocantins">Tocantins</option>
+          <option value="Piaui">Piauí</option>
+          <option value="Acre">Acre</option>
+          <option value="Amapa">Amapá</option>
+        </select>
 
-      <label for="Mensagem">Mensagem</label>
-      <textarea name="Mensagem" id="Mensagem"></textarea>
-      <br />
-      <br />
-      <input type="submit" value="Enviar" />
+        <br />
+        <br />
+
+        <label for="Mensagem">Mensagem</label>
+        <textarea name="Mensagem" id="Mensagem"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+      </fieldset>
     </form>
   </body>
 </html>
